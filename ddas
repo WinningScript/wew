@@ -1,0 +1,727 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local NewGUI = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local ShesyBAKA = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local SUSSYHUB = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local Tabs = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local GameScriptFrame = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local YuNarukami = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Eren = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Shigeo = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Dio = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Deku = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Asta = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Zenitsu = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local CreditFrame = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local PathNote = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local GameScript = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Credit = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local FirstFrame = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local PathNoteFrame = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local Login = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local User = Instance.new("TextBox")
+local UICorner_20 = Instance.new("UICorner")
+local Pass = Instance.new("TextBox")
+local UICorner_21 = Instance.new("UICorner")
+local Login_2 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+
+--Properties:
+
+NewGUI.Name = "New GUI"
+NewGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+NewGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = NewGUI
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.Position = UDim2.new(0.192266375, 0, 0.219197705, 0)
+Main.Size = UDim2.new(0, 577, 0, 363)
+Main.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = Main
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(16, 16, 16))}
+UIGradient.Offset = Vector2.new(-0.175909877, 0.0316804424)
+UIGradient.Rotation = -2.7591075897217
+UIGradient.Parent = Main
+
+ShesyBAKA.Name = "ShesyBAKA"
+ShesyBAKA.Parent = Main
+ShesyBAKA.BackgroundColor3 = Color3.fromRGB(203, 135, 0)
+ShesyBAKA.Size = UDim2.new(0, 89, 0, 38)
+ShesyBAKA.Font = Enum.Font.Oswald
+ShesyBAKA.Text = "Winning"
+ShesyBAKA.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShesyBAKA.TextScaled = true
+ShesyBAKA.TextSize = 14.000
+ShesyBAKA.TextWrapped = true
+
+UICorner_2.Parent = ShesyBAKA
+
+SUSSYHUB.Name = "SUSSYHUB"
+SUSSYHUB.Parent = Main
+SUSSYHUB.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+SUSSYHUB.Position = UDim2.new(0.154246107, 0, 0, 0)
+SUSSYHUB.Size = UDim2.new(0, 67, 0, 38)
+SUSSYHUB.Font = Enum.Font.Oswald
+SUSSYHUB.Text = "Script"
+SUSSYHUB.TextColor3 = Color3.fromRGB(255, 255, 255)
+SUSSYHUB.TextScaled = true
+SUSSYHUB.TextSize = 14.000
+SUSSYHUB.TextWrapped = true
+
+UICorner_3.Parent = SUSSYHUB
+
+Tabs.Name = "Tabs"
+Tabs.Parent = Main
+Tabs.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Tabs.Position = UDim2.new(0, 0, 0.137741044, 0)
+Tabs.Size = UDim2.new(0, 89, 0, 313)
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = Tabs
+
+GameScriptFrame.Name = "GameScriptFrame"
+GameScriptFrame.Parent = Main
+GameScriptFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GameScriptFrame.Position = UDim2.new(0.166377813, 0, 0.137741044, 0)
+GameScriptFrame.Size = UDim2.new(0, 471, 0, 305)
+GameScriptFrame.Visible = false
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = GameScriptFrame
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_2.Offset = Vector2.new(-0.175909877, 0.0316804424)
+UIGradient_2.Rotation = -2.7591075897217
+UIGradient_2.Parent = GameScriptFrame
+
+ScrollingFrame.Parent = GameScriptFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Size = UDim2.new(0, 471, 0, 305)
+
+YuNarukami.Name = "Yu Narukami"
+YuNarukami.Parent = ScrollingFrame
+YuNarukami.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+YuNarukami.Position = UDim2.new(0.0186170191, 0, 0.0798667967, 0)
+YuNarukami.Size = UDim2.new(0, 441, 0, 31)
+YuNarukami.Font = Enum.Font.SourceSans
+YuNarukami.Text = "Use Yu Narukami"
+YuNarukami.TextColor3 = Color3.fromRGB(255, 255, 255)
+YuNarukami.TextScaled = true
+YuNarukami.TextSize = 14.000
+YuNarukami.TextWrapped = true
+YuNarukami.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/Yu-Narukami/main/Yu%20Narukami1",true))()
+end)
+
+UICorner_6.Parent = YuNarukami
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 450, 0, 49)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Hi i'm sorry not all character because some character can't bypass it"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Eren.Name = "Eren"
+Eren.Parent = ScrollingFrame
+Eren.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Eren.Position = UDim2.new(0.0186170191, 0, 0.138883188, 0)
+Eren.Size = UDim2.new(0, 441, 0, 31)
+Eren.Font = Enum.Font.SourceSans
+Eren.Text = "Use Eren"
+Eren.TextColor3 = Color3.fromRGB(255, 255, 255)
+Eren.TextScaled = true
+Eren.TextSize = 14.000
+Eren.TextWrapped = true
+Eren.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/faeg/main/ErenErenErenErenErenErenErenErenErenErenErenErenErenErenErenErenErenErenErenErenErenEren",true))()
+end)
+
+UICorner_7.Parent = Eren
+
+Shigeo.Name = "Shigeo"
+Shigeo.Parent = ScrollingFrame
+Shigeo.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Shigeo.Position = UDim2.new(0.0186170191, 0, 0.202817619, 0)
+Shigeo.Size = UDim2.new(0, 441, 0, 31)
+Shigeo.Font = Enum.Font.SourceSans
+Shigeo.Text = "Use Shigeo"
+Shigeo.TextColor3 = Color3.fromRGB(255, 255, 255)
+Shigeo.TextScaled = true
+Shigeo.TextSize = 14.000
+Shigeo.TextWrapped = true
+Shigeo.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/Shigeo/main/sadsadas",true))()
+end)
+
+UICorner_8.Parent = Shigeo
+
+Dio.Name = "Dio"
+Dio.Parent = ScrollingFrame
+Dio.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Dio.Position = UDim2.new(0.0186170191, 0, 0.266752034, 0)
+Dio.Size = UDim2.new(0, 441, 0, 31)
+Dio.Font = Enum.Font.SourceSans
+Dio.Text = "Use Dio"
+Dio.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dio.TextScaled = true
+Dio.TextSize = 14.000
+Dio.TextWrapped = true
+Dio.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/diooooo/main/senko",true))()
+end)
+
+UICorner_9.Parent = Dio
+
+Deku.Name = "Deku"
+Deku.Parent = ScrollingFrame
+Deku.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Deku.Position = UDim2.new(0.0186170191, 0, 0.329047114, 0)
+Deku.Size = UDim2.new(0, 441, 0, 31)
+Deku.Font = Enum.Font.SourceSans
+Deku.Text = "Use Deku"
+Deku.TextColor3 = Color3.fromRGB(255, 255, 255)
+Deku.TextScaled = true
+Deku.TextSize = 14.000
+Deku.TextWrapped = true
+Deku.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/Dharmann/main/LOL",true))()
+end)
+
+UICorner_10.Parent = Deku
+
+Asta.Name = "Asta"
+Asta.Parent = ScrollingFrame
+Asta.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Asta.Position = UDim2.new(0.0186170191, 0, 0.394620895, 0)
+Asta.Size = UDim2.new(0, 441, 0, 31)
+Asta.Font = Enum.Font.SourceSans
+Asta.Text = "Use Asta"
+Asta.TextColor3 = Color3.fromRGB(255, 255, 255)
+Asta.TextScaled = true
+Asta.TextSize = 14.000
+Asta.TextWrapped = true
+Asta.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/As-ta/main/das",true))()
+end)
+
+UICorner_11.Parent = Asta
+
+Zenitsu.Name = "Zenitsu"
+Zenitsu.Parent = ScrollingFrame
+Zenitsu.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Zenitsu.Position = UDim2.new(0.0186170191, 0, 0.461834013, 0)
+Zenitsu.Size = UDim2.new(0, 441, 0, 31)
+Zenitsu.Font = Enum.Font.SourceSans
+Zenitsu.Text = "Use Zenitsu"
+Zenitsu.TextColor3 = Color3.fromRGB(255, 255, 255)
+Zenitsu.TextScaled = true
+Zenitsu.TextSize = 14.000
+Zenitsu.TextWrapped = true
+Zenitsu.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/Zenitsu/main/pogmom",true))()
+end)
+
+UICorner_12.Parent = Zenitsu
+
+CreditFrame.Name = "CreditFrame"
+CreditFrame.Parent = Main
+CreditFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditFrame.Position = UDim2.new(0.166377813, 0, 0.137741044, 0)
+CreditFrame.Size = UDim2.new(0, 471, 0, 305)
+CreditFrame.Visible = false
+
+UICorner_13.CornerRadius = UDim.new(0, 10)
+UICorner_13.Parent = CreditFrame
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_3.Offset = Vector2.new(-0.175909877, 0.0316804424)
+UIGradient_3.Rotation = -2.7591075897217
+UIGradient_3.Parent = CreditFrame
+
+ScrollingFrame_2.Parent = CreditFrame
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.Size = UDim2.new(0, 471, 0, 305)
+
+TextLabel_2.Parent = ScrollingFrame_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, -0.00290837511, 0)
+TextLabel_2.Size = UDim2.new(0, 471, 0, 26)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Credit"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = ScrollingFrame_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 0, 0.0384455435, 0)
+TextLabel_3.Size = UDim2.new(0, 471, 0, 33)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Owner"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = ScrollingFrame_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0, 0, 0.0810684934, 0)
+TextLabel_4.Size = UDim2.new(0, 471, 0, 33)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Telly#9193"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+PathNote.Name = "PathNote"
+PathNote.Parent = Main
+PathNote.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PathNote.Position = UDim2.new(0.00542141637, 0, 0.393024027, 0)
+PathNote.Size = UDim2.new(0, 81, 0, 35)
+PathNote.Font = Enum.Font.SourceSans
+PathNote.Text = "UI Update"
+PathNote.TextColor3 = Color3.fromRGB(255, 255, 255)
+PathNote.TextScaled = true
+PathNote.TextSize = 14.000
+PathNote.TextWrapped = true
+
+UICorner_14.Parent = PathNote
+
+GameScript.Name = "GameScript"
+GameScript.Parent = Main
+GameScript.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GameScript.Position = UDim2.new(0.00542141637, 0, 0.157711282, 0)
+GameScript.Size = UDim2.new(0, 81, 0, 35)
+GameScript.Font = Enum.Font.SourceSans
+GameScript.Text = "Game Script"
+GameScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+GameScript.TextScaled = true
+GameScript.TextSize = 14.000
+GameScript.TextWrapped = true
+
+UICorner_15.Parent = GameScript
+
+Credit.Name = "Credit"
+Credit.Parent = Main
+Credit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Credit.Position = UDim2.new(0.00542141637, 0, 0.275367677, 0)
+Credit.Size = UDim2.new(0, 81, 0, 35)
+Credit.Font = Enum.Font.SourceSans
+Credit.Text = "Credit"
+Credit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credit.TextScaled = true
+Credit.TextSize = 14.000
+Credit.TextWrapped = true
+
+UICorner_16.Parent = Credit
+
+FirstFrame.Name = "FirstFrame"
+FirstFrame.Parent = Main
+FirstFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FirstFrame.Position = UDim2.new(0.166377813, 0, 0.137741044, 0)
+FirstFrame.Size = UDim2.new(0, 471, 0, 305)
+
+UICorner_17.CornerRadius = UDim.new(0, 10)
+UICorner_17.Parent = FirstFrame
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_4.Offset = Vector2.new(-0.175909877, 0.0316804424)
+UIGradient_4.Rotation = -2.7591075897217
+UIGradient_4.Parent = FirstFrame
+
+TextLabel_5.Parent = FirstFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0191082805, 0, -3.7252903e-08, 0)
+TextLabel_5.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Hello Welcome"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = FirstFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0191082805, 0, 0.0918032378, 0)
+TextLabel_6.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Thanks for Using the Script"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = FirstFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0191082805, 0, 0.111475371, 0)
+TextLabel_7.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "________________________________________"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+TextLabel_8.Parent = FirstFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0191082805, 0, 0.203278646, 0)
+TextLabel_8.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "How to Close The UI?"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+TextLabel_9.Parent = FirstFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.0191082805, 0, 0.295081913, 0)
+TextLabel_9.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Press (M) on your Keyboard"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+TextLabel_10.Parent = FirstFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0, 0, 0.383606493, 0)
+TextLabel_10.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Thanks"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+PathNoteFrame.Name = "PathNoteFrame"
+PathNoteFrame.Parent = Main
+PathNoteFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PathNoteFrame.Position = UDim2.new(0.166377813, 0, 0.137741044, 0)
+PathNoteFrame.Size = UDim2.new(0, 471, 0, 305)
+PathNoteFrame.Visible = false
+
+UICorner_18.CornerRadius = UDim.new(0, 10)
+UICorner_18.Parent = PathNoteFrame
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_5.Offset = Vector2.new(-0.175909877, 0.0316804424)
+UIGradient_5.Rotation = -2.7591075897217
+UIGradient_5.Parent = PathNoteFrame
+
+TextLabel_11.Parent = PathNoteFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.0191082805, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "Update"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+TextLabel_12.Parent = PathNoteFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.0191082805, 0, 0.137704909, 0)
+TextLabel_12.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "Updated GUI"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+TextLabel_13.Parent = PathNoteFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.0191082805, 0, 0.229508191, 0)
+TextLabel_13.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "Thanks for Using"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+TextLabel_14.Parent = PathNoteFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.0191082805, 0, 0.324590147, 0)
+TextLabel_14.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "Make sure you Subscribe for more script like This"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+Login.Name = "Login"
+Login.Parent = NewGUI
+Login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Login.Position = UDim2.new(0.288461477, 0, 0.349606305, 0)
+Login.Size = UDim2.new(0, 552, 0, 236)
+
+UICorner_19.CornerRadius = UDim.new(0, 15)
+UICorner_19.Parent = Login
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(178, 178, 178)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_6.Offset = Vector2.new(0.0130642056, -0.0331228822)
+UIGradient_6.Rotation = 400.81509399414
+UIGradient_6.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.11), NumberSequenceKeypoint.new(1.00, 0.51)}
+UIGradient_6.Parent = Login
+
+User.Name = "User"
+User.Parent = Login
+User.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+User.Position = UDim2.new(0.0108695654, 0, 0.165254235, 0)
+User.Size = UDim2.new(0, 540, 0, 47)
+User.Font = Enum.Font.SourceSans
+User.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+User.Text = "Login"
+User.TextColor3 = Color3.fromRGB(255, 255, 255)
+User.TextSize = 22.000
+
+UICorner_20.Parent = User
+
+Pass.Name = "Pass"
+Pass.Parent = Login
+Pass.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Pass.Position = UDim2.new(0.0108695654, 0, 0.398305088, 0)
+Pass.Size = UDim2.new(0, 540, 0, 47)
+Pass.Font = Enum.Font.SourceSans
+Pass.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Pass.Text = "Password"
+Pass.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pass.TextSize = 22.000
+
+UICorner_21.Parent = Pass
+
+Login_2.Name = "Login"
+Login_2.Parent = Login
+Login_2.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Login_2.Position = UDim2.new(0.340579718, 0, 0.682203412, 0)
+Login_2.Size = UDim2.new(0, 176, 0, 48)
+Login_2.Font = Enum.Font.Cartoon
+Login_2.Text = "Enter"
+Login_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Login_2.TextScaled = true
+Login_2.TextSize = 14.000
+Login_2.TextWrapped = true
+
+UICorner_22.Parent = Login_2
+
+TextLabel_15.Parent = Login
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Size = UDim2.new(0, 552, 0, 26)
+TextLabel_15.Font = Enum.Font.Oswald
+TextLabel_15.Text = "Please Enter The Key"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+
+TextLabel_16.Parent = NewGUI
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0, 0, 0.830508471, 0)
+TextLabel_16.Size = UDim2.new(0, 544, 0, 31)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = ""
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+
+-- Scripts:
+
+local function SISGWI_fake_script() -- PathNote.LocalScript 
+	local script = Instance.new('LocalScript', PathNote)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.CreditFrame.Visible = false
+		script.Parent.Parent.FirstFrame.Visible = false
+		script.Parent.Parent.GameScriptFrame.Visible = false
+		script.Parent.Parent.PathNoteFrame.Visible = true
+		wait(0.1)
+	end)
+end
+coroutine.wrap(SISGWI_fake_script)()
+local function BMPV_fake_script() -- GameScript.LocalScript 
+	local script = Instance.new('LocalScript', GameScript)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.CreditFrame.Visible = false
+		script.Parent.Parent.FirstFrame.Visible = false
+		script.Parent.Parent.GameScriptFrame.Visible = true
+		script.Parent.Parent.PathNoteFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(BMPV_fake_script)()
+local function HYRXI_fake_script() -- Credit.LocalScript 
+	local script = Instance.new('LocalScript', Credit)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.CreditFrame.Visible = true
+		script.Parent.Parent.FirstFrame.Visible = false
+		script.Parent.Parent.GameScriptFrame.Visible = false
+		script.Parent.Parent.PathNoteFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(HYRXI_fake_script)()
+local function CGZJU_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	player = game.Players.LocalPlayer
+	
+	player:GetMouse().KeyDown:Connect(function(key)
+		if key == "m" and script.Parent.Visible == false then
+			script.Parent.Visible = true
+		else
+			if key == "m" and script.Parent.Visible == true then
+				script.Parent.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(CGZJU_fake_script)()
+local function ASPT_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(ASPT_fake_script)()
+local function JWOUTPQ_fake_script() -- Login_2.LocalScript 
+	local script = Instance.new('LocalScript', Login_2)
+
+	local UserData = script.Parent.Parent.User -- this is the variable for the 'username' textbox. 
+	local button = script.Parent -- this is a variable for the Button.
+	local UserPass = script.Parent.Parent.Pass -- this is a variable for the 'Password' textbox
+	local End = script.Parent.Parent.Parent.Main -- rename Hackz to ur frame u want to open after logging in.
+	button.MouseButton1Click:Connect(function() -- will run the script down below after clicking the button
+		if UserData.Text == "WinningScript" and UserPass.Text == "402e3c790898cbfaac794c7f772b6273" then -- change noob and 111 to a username and password u want
+			End.Visible = true  -- makes the hack frame visible after logging in.
+			wait(1) -- waits one second.
+			script.Parent.Parent.Visible = false -- makes the login frame invisible after logging in.
+		else -- if the pass or username is wrong it will run the script down below
+			button.Text = "Invalid Info" -- changes the text to invalid info
+			wait(0.5) -- waits 0,5 secs
+			button.Text = "Try again" -- changes the text to try again
+			wait(0.5) -- waits another 0,5 secs
+			button.Text = "Login" -- changes the text back to login
+		end -- ends the if statement
+	end) -- ends the button function
+	
+	
+	-- fully scripted by NTO EXPLOITS on youtube -- 
+end
+coroutine.wrap(JWOUTPQ_fake_script)()
